@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*whole page*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    height: 100%;
+
+/* NAVBAR AND HEADER STYLING*/
+
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    background-color:#550066;
+    box-shadow: 1px 1px 6px 1px #40004D;
+
+}
+
+.topbar {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.bar {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+#header1 {
+    width: 100%;
+    height: 15%;
+    background-color:#550066; 
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+#hello {
+    color: #550066;
+    font-size: 35px;
+    padding: 15px;
+    font-weight: lighter;
+
+}
+
+.paragraph1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 40%;
+    /*background-color: lightcyan;*/
+
+}
+
+.family {
+    display: flex;
+    justify-content: right;
+}
+
+
+/* MAIN STYLING */
+
+main {
+    /*display: flex;
+    min-height: 65vh;*/
+    /*background-color: wheat;*/
+    height: 40%;
+    /*padding: 20px;*/
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.favfood {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #550066;
+    
+}
+.list1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.food {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+
+.exercise {
+    flex: 2;
+    color: #550066;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sparetime{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    list-style: none;
+
+}
+
+.list2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chocolate {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #550066;
+}
+
+.chocs {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.list3{
+    display: flex;
+    justify-content: center;
+}
+
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why{
+    display: flex;
+    justify-content: center;
+    color:#550066 ;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.school{
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+.para3 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.useful{
+    display: flex;
+    justify-content: center;
+    color: #550066;
+    margin-bottom: 20px;
+}
+
+.para4{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.edit{
+    font-family: 'Times New Roman', Times, serif;
+}
