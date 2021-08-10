@@ -86,6 +86,7 @@ body {
     margin-left: 95px;
     height: 40vh;
     padding-left: 160px;
+    border: 7px solid #FFFBE6;
 }
 
 .W3 {
@@ -103,7 +104,7 @@ body {
 .Anothermain {
     display: flex;
     /*min-height: 65vh;*/
-    background-color: wheat;
+    background-color: #FFFBE6;
     height: 30vh;
     margin-top: 50px;
     justify-content: center;
@@ -190,6 +191,12 @@ div {
     justify-content: center;
     margin-top: 30px;
 }
+
+.fb{
+    margin-left: 30px;
+}
+
+
 
 footer {
     display: flex;
